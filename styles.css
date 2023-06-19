@@ -1,0 +1,176 @@
+a {
+  padding: 10px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  margin-left: 33%;
+  border-radius: 10px;
+  font-family: 'Racing Sans One', cursive, 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+button:hover, select:hover {
+  background-color: red;
+}
+
+#collection {
+  height: 22px;
+  width: 100%;
+}
+
+.dirtbike-background {
+  background-image: url(https://wallpapercave.com/wp/wp3231296.jpg);
+}
+
+.dirtbike-background, .home-background, .jet-ski-background, .upload-background, .utv-background {
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* .div-1 {animation-timing-function:ease-in;} */
+
+form {
+  font-family: 'Play', sans-serif, 'Courier New', Courier, monospace;
+  /* background-color: rgb(89, 89, 140); */
+  background-image: linear-gradient(red, silver, darkgray, red);
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-bottom: 30px;
+  color:rgb(0, 0, 0);
+  padding: 30px;
+}
+
+.form-title {
+  padding: 5px;
+  margin: 10px 35%;
+}
+
+footer {
+  border-radius: 10px;
+  font-family: 'Racing Sans One', cursive, 'Courier New', Courier, monospace;
+  background-color: gray;
+  text-align: center;
+  padding: 5px;
+}
+
+h1, h2 {
+  font-family: 'Racing Sans One', cursive, 'Courier New', Courier, monospace;
+  color: black;
+  text-align: center;
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 50px;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 4px white;
+  text-decoration: none;
+  background-image: linear-gradient(red, gray, red);
+  /* background-color: crimson; */
+}
+
+h2 {
+  text-align: center;
+}
+
+.home-background {
+  background-image: url(https://cdn.wallpapersafari.com/46/95/4O98Mc.jpg);
+}
+
+iframe {
+  width: 375px;
+  height:225px;
+  margin: 15px;
+  position: relative;
+  animation: example 4s linear 2s infinite alternate;
+}
+
+.iframe-table {
+  margin-left: 15px;
+}
+
+.input-box, textarea {
+  width: 98%;
+  text-overflow: scroll;
+}
+
+.jet-ski-background {
+  background-image: url(https://wallpaperaccess.com/full/1629026.jpg);
+}
+
+@keyframes example {
+  0% { background-color: rgb(56, 59, 49); left: 0;}
+  100% { background-color: rgb(56, 59, 49); left: 50px;}
+}
+
+label {
+  font-family: 'Racing Sans One', cursive, 'Courier New', Courier, monospace;
+}
+
+nav, p {
+  border-width: 2px;
+  border-style: ridge;
+  border-radius: 50px;
+  background-image: linear-gradient(red, gray, red);
+  text-shadow: 2px 2px 4px white;
+  font-family: 'Racing Sans One', cursive, 'Courier New', Courier, monospace;
+}
+
+nav {
+  margin-right: 70%;
+  text-shadow: 2px 2px 4px white;
+  display: flex;
+}
+
+p {
+  margin: 10px 100px;
+  padding:20px
+}
+
+.nav-img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+}
+
+.privacy {
+  text-align: center;
+}
+
+.sub-head {
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+td {
+  margin-right: 30px;
+}
+
+tr {
+  display: flex;
+}
+
+.upload-background {
+  background-image: url(https://powersport.motul.com/upload/ck_upload/u439/3570ec662d4de94004b8efc739c5a523.jpg);
+}
+
+.utv-background{
+  background-image: url(https://wallpapercave.com/wp/wp5725296.jpg);
+}
+
+.vid-page {
+  align-items: center;
+  text-align: center;
+}
+
+.vid-player {
+  width: 600px;
+  height: 290px;
+}
+

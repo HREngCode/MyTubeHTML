@@ -2,10 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="upload-background">
     <nav>
       <a href="index.html">Home</a>
       <a href="./pages/dirtbike.html">Dirtbike</a>
@@ -14,12 +20,13 @@
       <a href="./form.html">New Video</a>
     </nav>
 
-    <h1>Add New Video</h1>
+    <h1 class="form-title">Add New Video</h1>
 
     <form>
       <label for="title"><b>Video Title</b></label
       ><br />
       <input
+        class="input-box"
         id="name"
         name="name"
         type="text"
@@ -36,33 +43,36 @@
         placeholder="Text area content"
         cols="24"
         rows="5"
-        required
       ></textarea
       ><br /><br />
 
       <label for="video"><b>Video</b></label
       ><br />
-      <input name="video" id="video" type="file" value="video" required />
+      <input name="video" id="video" type="file" value="video" />
 
       <br /><br />
 
-      <label for="collection"></label>
-      <input type="drop-down" id="collection" name="collection" placeholder="Choose Collection">
+      <select id="collection" name="collection">
+        <option value="Choose Collection">Choose Collection</option>
         <option value="Dirtbike">Dirtbike</option>
         <option value="UTV">UTV</option>
-        <option value="Jet Ski">Jet SKI</option>
+        <option value="Jet Ski">Jet Ski</option>
       </select>
-      <br /><br />
+      <br />
+      <br />
+      <div class="privacy">
+        <input name="privacy" id="yes" type="radio" value="public" />
+        <label for="public">Public</label>
 
-      <input name="privacy" id="yes" type="radio" value="public" required />
-      <label for="public">Public</label>
-
-      <input name="privacy" id="no" type="radio" value="private" required />
-      <label for="private">Private</label><br />
-      <br /><br /><br />
-      <input type="submit" value="Upload Video" />
+        <input name="privacy" id="no" type="radio" value="private" />
+        <label for="private">Private</label><br />
+      </div>
+      <br />
+      <button type="submit">Upload Video</button>
     </form>
   </body>
-  <hr />
-  <footer>&copy: Copyright"</footer>
+
+  <footer>
+    <footer>&copy: Copyright"</footer>
+  </footer>
 </html>

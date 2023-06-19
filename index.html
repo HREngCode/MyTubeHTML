@@ -4,8 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="home-background">
     <nav>
       <a href="index.html">Home</a>
       <a href="./pages/dirtbike.html">Dirtbike</a>
@@ -13,46 +20,41 @@
       <a href="./pages/jetski.html">Jet Ski</a>
       <a href="./form.html">New Video</a>
     </nav>
-    <h1>Home Page</h1>
-    <br />
-    <h2>Featured Powersports</h2>
-    <br />
-    <table>
-      <td>
-        <iframe
-          width="375"
-          height="225"
-          src="https://www.youtube.com/embed/DCDBeUZWYVY"
-          title="YouTube video player"
-          frameborder="0"
-        ></iframe>
-          <h2>DIRTBIKE</h2>
-      </td>
-      <td>
-        <iframe
-        width="375"
-        height="225"
-        src="https://www.youtube.com/embed/Sjp4s6NFzDU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      ></iframe>
-          <h2>UTV</h2>
-      </td>
-      <td>
-        <iframe
-        width="375"
-        height="225"
-        src="https://www.youtube.com/embed/hwCGuHk8lU8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      ></iframe>
-        <h2>JET SKI</h2>
-    </td>
-      </td>
-    </table>
+    <h1>MYTUBE-POWERSPORTS EDITION</h1>
+    <h2 class="sub-head">FEATURED POWERSPORTS</h2>
+    <div class="iframe-table">
+      <table>
+        <tr>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/DCDBeUZWYVY"
+              title="YouTube video player"
+              frameborder="0"
+            ></iframe>
+            <a href="./pages/dirtbike.html"><h2>DIRTBIKE</h2></a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/Sjp4s6NFzDU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+            <a href="./pages/utv.html"><h2>UTV</h2></a>
+          </td>
+          <td>
+            <iframe
+              src="https://www.youtube.com/embed/hwCGuHk8lU8"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
+            <a href="./pages/jetski.html"><h2>JET SKI</h2></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>&copy: Copyright"</footer>
   </body>
-  <hr>
-  <footer>&copy: Copyright"</footer>
+  <hr />
 </html>
